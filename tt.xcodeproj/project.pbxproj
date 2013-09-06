@@ -21,6 +21,7 @@
 		CE86BEA517DA0FF900C3B544 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE86BE8717DA0FF900C3B544 /* UIKit.framework */; };
 		CE86BEAD17DA0FF900C3B544 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE86BEAB17DA0FF900C3B544 /* InfoPlist.strings */; };
 		CE86BEAF17DA0FF900C3B544 /* ttTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE86BEAE17DA0FF900C3B544 /* ttTests.m */; };
+		CE86BEFC17DA16F200C3B544 /* RubinLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE86BEFB17DA16F200C3B544 /* RubinLogo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CE86BEAA17DA0FF900C3B544 /* ttTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ttTests-Info.plist"; sourceTree = "<group>"; };
 		CE86BEAC17DA0FF900C3B544 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE86BEAE17DA0FF900C3B544 /* ttTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ttTests.m; sourceTree = "<group>"; };
+		CE86BEFB17DA16F200C3B544 /* RubinLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RubinLogo.png; path = Apple/Test2/RubinLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		CE86BE7717DA0FF900C3B544 = {
 			isa = PBXGroup;
 			children = (
+				CE86BEFB17DA16F200C3B544 /* RubinLogo.png */,
 				CE86BE8917DA0FF900C3B544 /* tt */,
 				CE86BEA817DA0FF900C3B544 /* ttTests */,
 				CE86BE8217DA0FF900C3B544 /* Frameworks */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE86BE9C17DA0FF900C3B544 /* Images.xcassets in Resources */,
+				CE86BEFC17DA16F200C3B544 /* RubinLogo.png in Resources */,
 				CE86BE8E17DA0FF900C3B544 /* InfoPlist.strings in Resources */,
 				CE86BE9717DA0FF900C3B544 /* Main.storyboard in Resources */,
 			);
@@ -454,6 +458,7 @@
 				CE86BEB417DA0FF900C3B544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE86BEB517DA0FF900C3B544 /* Build configuration list for PBXNativeTarget "ttTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +467,7 @@
 				CE86BEB717DA0FF900C3B544 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
