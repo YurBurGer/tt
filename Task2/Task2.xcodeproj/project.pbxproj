@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1D270217DB50520055ACDA /* NewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1D270117DB50520055ACDA /* NewClass.m */; };
+		CE1D272417DB58090055ACDA /* item1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D271E17DB58090055ACDA /* item1.png */; };
+		CE1D272517DB58090055ACDA /* item2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D271F17DB58090055ACDA /* item2.png */; };
+		CE1D272617DB58090055ACDA /* item3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D272017DB58090055ACDA /* item3.png */; };
+		CE1D272717DB58090055ACDA /* item4.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D272117DB58090055ACDA /* item4.png */; };
+		CE1D272817DB58090055ACDA /* item5.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D272217DB58090055ACDA /* item5.png */; };
+		CE1D272917DB58090055ACDA /* item6.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D272317DB58090055ACDA /* item6.png */; };
 		CEAF5A4217DB401900780E77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAF5A4117DB401900780E77 /* Foundation.framework */; };
 		CEAF5A4417DB401900780E77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAF5A4317DB401900780E77 /* CoreGraphics.framework */; };
 		CEAF5A4617DB401900780E77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAF5A4517DB401900780E77 /* UIKit.framework */; };
@@ -34,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE1D270017DB50520055ACDA /* NewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClass.h; sourceTree = "<group>"; };
+		CE1D270117DB50520055ACDA /* NewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewClass.m; sourceTree = "<group>"; };
+		CE1D271E17DB58090055ACDA /* item1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item1.png; sourceTree = "<group>"; };
+		CE1D271F17DB58090055ACDA /* item2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item2.png; sourceTree = "<group>"; };
+		CE1D272017DB58090055ACDA /* item3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item3.png; sourceTree = "<group>"; };
+		CE1D272117DB58090055ACDA /* item4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item4.png; sourceTree = "<group>"; };
+		CE1D272217DB58090055ACDA /* item5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item5.png; sourceTree = "<group>"; };
+		CE1D272317DB58090055ACDA /* item6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item6.png; sourceTree = "<group>"; };
 		CEAF5A3E17DB401900780E77 /* Task2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAF5A4117DB401900780E77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEAF5A4317DB401900780E77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +97,12 @@
 		CEAF5A3517DB401900780E77 = {
 			isa = PBXGroup;
 			children = (
+				CE1D271E17DB58090055ACDA /* item1.png */,
+				CE1D271F17DB58090055ACDA /* item2.png */,
+				CE1D272017DB58090055ACDA /* item3.png */,
+				CE1D272117DB58090055ACDA /* item4.png */,
+				CE1D272217DB58090055ACDA /* item5.png */,
+				CE1D272317DB58090055ACDA /* item6.png */,
 				CEAF5A4717DB401900780E77 /* Task2 */,
 				CEAF5A6617DB401900780E77 /* Task2Tests */,
 				CEAF5A4017DB401900780E77 /* Frameworks */,
@@ -119,6 +140,8 @@
 				CEAF5A5717DB401900780E77 /* ViewController.m */,
 				CEAF5A5917DB401900780E77 /* Images.xcassets */,
 				CEAF5A4817DB401900780E77 /* Supporting Files */,
+				CE1D270017DB50520055ACDA /* NewClass.h */,
+				CE1D270117DB50520055ACDA /* NewClass.m */,
 			);
 			path = Task2;
 			sourceTree = "<group>";
@@ -228,9 +251,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1D272817DB58090055ACDA /* item5.png in Resources */,
+				CE1D272417DB58090055ACDA /* item1.png in Resources */,
+				CE1D272517DB58090055ACDA /* item2.png in Resources */,
+				CE1D272717DB58090055ACDA /* item4.png in Resources */,
+				CE1D272617DB58090055ACDA /* item3.png in Resources */,
 				CEAF5A5A17DB401900780E77 /* Images.xcassets in Resources */,
 				CEAF5A4C17DB401900780E77 /* InfoPlist.strings in Resources */,
 				CEAF5A5517DB401900780E77 /* Main.storyboard in Resources */,
+				CE1D272917DB58090055ACDA /* item6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAF5A5817DB401900780E77 /* ViewController.m in Sources */,
+				CE1D270217DB50520055ACDA /* NewClass.m in Sources */,
 				CEAF5A5217DB401900780E77 /* AppDelegate.m in Sources */,
 				CEAF5A4E17DB401900780E77 /* main.m in Sources */,
 			);
@@ -454,6 +484,7 @@
 				CEAF5A7217DB401900780E77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEAF5A7317DB401900780E77 /* Build configuration list for PBXNativeTarget "Task2Tests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +493,7 @@
 				CEAF5A7517DB401900780E77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
