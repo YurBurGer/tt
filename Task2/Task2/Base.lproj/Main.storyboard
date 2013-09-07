@@ -81,7 +81,7 @@
                                     <action selector="Sl1:" destination="vXZ-lx-hvc" eventType="valueChanged" id="xHP-Qc-B9B"/>
                                 </connections>
                             </slider>
-                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Ecw-zC-6aV">
+                            <stepper opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="-5" minimumValue="-5" maximumValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="Ecw-zC-6aV">
                                 <rect key="frame" x="137" y="185" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <connections>
@@ -90,10 +90,12 @@
                             </stepper>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                     </view>
                     <navigationItem key="navigationItem" id="cWN-af-NZr"/>
                     <connections>
                         <outlet property="I1" destination="maW-5c-2nE" id="7qc-pA-Psl"/>
+                        <outlet property="Inc1" destination="Ecw-zC-6aV" id="4bf-FT-S7o"/>
                         <outlet property="L1" destination="WYg-ZD-kcD" id="5kP-ln-LfX"/>
                         <outlet property="L2" destination="hFr-Cr-IgX" id="ms4-ox-VIN"/>
                         <outlet property="S1" destination="TtV-1h-IsJ" id="gJB-hy-K5S"/>

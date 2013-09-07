@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UISlider *Sl1;
 - (IBAction)Sl1:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *L2;
+@property (weak, nonatomic) IBOutlet UIStepper *Inc1;
 - (IBAction)Inc1:(id)sender;
 
 

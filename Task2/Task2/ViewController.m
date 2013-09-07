@@ -75,6 +75,7 @@
     self.L2.text=[NSString stringWithFormat:@"%g", self.Sl1.value];
 }
 - (IBAction)Inc1:(id)sender {
-    
+    self.Sl1.value=self.Inc1.value;
+    self.L2.text=[NSString stringWithFormat:@"%g", self.Sl1.value];
 }
 @end
