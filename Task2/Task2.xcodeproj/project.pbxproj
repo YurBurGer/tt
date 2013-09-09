@@ -13,6 +13,7 @@
 		CE1D272717DB58090055ACDA /* item4.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D272117DB58090055ACDA /* item4.png */; };
 		CE1D272817DB58090055ACDA /* item5.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D272217DB58090055ACDA /* item5.png */; };
 		CE1D272917DB58090055ACDA /* item6.png in Resources */ = {isa = PBXBuildFile; fileRef = CE1D272317DB58090055ACDA /* item6.png */; };
+		CE2EAA3417DE0B8B000C99B1 /* RecieveController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2EAA3317DE0B8B000C99B1 /* RecieveController.m */; };
 		CE6AB44B17DDFDEE00C5E75C /* NewClasas.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AB44A17DDFDEE00C5E75C /* NewClasas.m */; };
 		CE6AB44E17DDFE5C00C5E75C /* NewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6AB44D17DDFE5C00C5E75C /* NewController.m */; };
 		CEAF5A4217DB401900780E77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAF5A4117DB401900780E77 /* Foundation.framework */; };
@@ -48,6 +49,8 @@
 		CE1D272117DB58090055ACDA /* item4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item4.png; sourceTree = "<group>"; };
 		CE1D272217DB58090055ACDA /* item5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item5.png; sourceTree = "<group>"; };
 		CE1D272317DB58090055ACDA /* item6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item6.png; sourceTree = "<group>"; };
+		CE2EAA3217DE0B8B000C99B1 /* RecieveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecieveController.h; sourceTree = "<group>"; };
+		CE2EAA3317DE0B8B000C99B1 /* RecieveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecieveController.m; sourceTree = "<group>"; };
 		CE6AB44917DDFDEE00C5E75C /* NewClasas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClasas.h; sourceTree = "<group>"; };
 		CE6AB44A17DDFDEE00C5E75C /* NewClasas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewClasas.m; sourceTree = "<group>"; };
 		CE6AB44C17DDFE5C00C5E75C /* NewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewController.h; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 				CEAF5A4817DB401900780E77 /* Supporting Files */,
 				CE6AB44C17DDFE5C00C5E75C /* NewController.h */,
 				CE6AB44D17DDFE5C00C5E75C /* NewController.m */,
+				CE2EAA3217DE0B8B000C99B1 /* RecieveController.h */,
+				CE2EAA3317DE0B8B000C99B1 /* RecieveController.m */,
 			);
 			path = Task2;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				CE6AB44E17DDFE5C00C5E75C /* NewController.m in Sources */,
 				CE6AB44B17DDFDEE00C5E75C /* NewClasas.m in Sources */,
 				CEAF5A4E17DB401900780E77 /* main.m in Sources */,
+				CE2EAA3417DE0B8B000C99B1 /* RecieveController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

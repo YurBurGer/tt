@@ -7,13 +7,12 @@
 //
 
 #import "NewController.h"
-
+#import "RecieveController.h"
 @interface NewController () 
 
 @end
 
 @implementation NewController
-
 - (id)initWithStyle:(UITableViewStyle)style
 {
     self = [super initWithStyle:style];
@@ -107,17 +106,16 @@
     return YES;
 }
 */
-
-/*
 #pragma mark - Navigation
 
 // In a story board-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    RecieveController *RC=[[RecieveController alloc] init];
+    RC=[segue destinationViewController];
+    NSIndexPath *ip=[self.tableView indexPathForSelectedRow];
+    RC.title = [NSString stringWithFormat:@"string№ %d",ip.row+1];
+    RC.str=[arr objectAtIndex:ip.row];
 }
-
- */
 
 @end

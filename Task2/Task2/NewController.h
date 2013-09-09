@@ -10,6 +10,9 @@
 
 @interface NewController : UITableViewController{
     NSArray *arr;
+    
 }
+
+
 
 @end
