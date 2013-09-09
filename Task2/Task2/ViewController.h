@@ -22,6 +22,11 @@
 @property (weak, nonatomic) IBOutlet UILabel *L2;
 @property (weak, nonatomic) IBOutlet UIStepper *Inc1;
 - (IBAction)Inc1:(id)sender;
+@property (weak, nonatomic) IBOutlet UISwitch *Sl2;
+- (IBAction)Sl2:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *L3;
+- (IBAction)B3:(id)sender;
+
 
 
 

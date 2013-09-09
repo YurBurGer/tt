@@ -78,4 +78,11 @@
     self.Sl1.value=self.Inc1.value;
     self.L2.text=[NSString stringWithFormat:@"%g", self.Sl1.value];
 }
+
+- (IBAction)Sl2:(id)sender {
+    self.Sl2.on=false;
+}
+- (IBAction)B3:(id)sender {
+    self.L3.text=@"123123123123123";
+}
 @end
