@@ -21,6 +21,7 @@
 		CEB92D5817E094DA003116F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB92D3A17E094DA003116F4 /* UIKit.framework */; };
 		CEB92D6017E094DA003116F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEB92D5E17E094DA003116F4 /* InfoPlist.strings */; };
 		CEB92D6217E094DA003116F4 /* Task3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB92D6117E094DA003116F4 /* Task3Tests.m */; };
+		CEB92D6D17E09AA5003116F4 /* CellController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB92D6C17E09AA5003116F4 /* CellController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CEB92D5D17E094DA003116F4 /* Task3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Task3Tests-Info.plist"; sourceTree = "<group>"; };
 		CEB92D5F17E094DA003116F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CEB92D6117E094DA003116F4 /* Task3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task3Tests.m; sourceTree = "<group>"; };
+		CEB92D6B17E09AA5003116F4 /* CellController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellController.h; sourceTree = "<group>"; };
+		CEB92D6C17E09AA5003116F4 /* CellController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				CEB92D4C17E094DA003116F4 /* ViewController.m */,
 				CEB92D4E17E094DA003116F4 /* Images.xcassets */,
 				CEB92D3D17E094DA003116F4 /* Supporting Files */,
+				CEB92D6B17E09AA5003116F4 /* CellController.h */,
+				CEB92D6C17E09AA5003116F4 /* CellController.m */,
 			);
 			path = Task3;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				CEB92D4D17E094DA003116F4 /* ViewController.m in Sources */,
 				CEB92D4717E094DA003116F4 /* AppDelegate.m in Sources */,
 				CEB92D4317E094DA003116F4 /* main.m in Sources */,
+				CEB92D6D17E09AA5003116F4 /* CellController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
