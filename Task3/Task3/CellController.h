@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CellController : UIViewController
-
+@interface CellController : UIViewController <UITableViewDataSource,UITableViewDelegate>{
+    NSArray *arr;
+}
+@property (weak, nonatomic) IBOutlet UITableView *TV1;
 @end
+

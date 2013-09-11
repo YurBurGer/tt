@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    arr=[NSArray arrayWithObjects:@"1",@"2",@"3",@"4", nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,4 +35,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(NSInteger) numberOfSectionsInTableView:(UITableView *)tableView{
+    return 1;
+}
+
+-(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return arr.count;
+}
+-(UITableViewCell *) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static NSString *cellIdentifier=@"1";
+    UITableViewCell *c=[tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    c.textLabel.text=[arr objectAtIndex:indexPath.row];
+    return c;
+}
 @end
