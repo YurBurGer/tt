@@ -7,6 +7,7 @@
 //
 
 #import "CellController.h"
+#import "DataViewCont.h"
 
 @interface CellController ()
 
@@ -47,5 +48,11 @@
     UITableViewCell *c=[tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
     c.textLabel.text=[arr objectAtIndex:indexPath.row];
     return c;
+}
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    DataViewCont *DVC=[[DataViewCont alloc] init];
+    DVC=[segue destinationViewController];
+    NSIndexPath *ip=[self.TV1 indexPathForSelectedRow];
+    DVC.num=ip.row+1;
 }
 @end
