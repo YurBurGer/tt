@@ -8,7 +8,7 @@
 
 #import "CellController.h"
 #import "DataViewCont.h"
-
+#import "DataStorage.h"
 @interface CellController ()
 
 @end
@@ -27,7 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    arr=[NSArray arrayWithObjects:@"1",@"2",@"3",@"4", nil];
+    arr=[DataStorage fill];
 }
 
 - (void)didReceiveMemoryWarning

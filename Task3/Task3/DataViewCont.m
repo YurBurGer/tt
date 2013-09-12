@@ -7,7 +7,7 @@
 //
 
 #import "DataViewCont.h"
-
+#import "DataStorage.h";
 @interface DataViewCont ()
 
 @end
@@ -26,11 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    NSString *imname=[NSString stringWithFormat:@"item%d.png",num];
-    NSString *fl=[NSString stringWithFormat:@"num=%d",num];
-    UIImage *im=[UIImage imageNamed:imname];
-    self.T1.text=fl;
-    self.I1.image=im;
+    self.T1.text=[DataStorage getfiletext:num];
+    self.I1.image=[DataStorage getimage:num];
 }
 
 - (void)didReceiveMemoryWarning

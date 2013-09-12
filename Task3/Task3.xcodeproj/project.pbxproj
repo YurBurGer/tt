@@ -14,6 +14,7 @@
 		CE2AB27217E0BA780079A5DB /* item4.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2AB26C17E0BA780079A5DB /* item4.png */; };
 		CE2AB27317E0BA780079A5DB /* item5.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2AB26D17E0BA780079A5DB /* item5.png */; };
 		CE2AB27417E0BA780079A5DB /* item6.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2AB26E17E0BA780079A5DB /* item6.png */; };
+		CEB76F0217E1E93A00FF1934 /* DataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB76F0117E1E93A00FF1934 /* DataStorage.m */; };
 		CEB92D3717E094DA003116F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB92D3617E094DA003116F4 /* Foundation.framework */; };
 		CEB92D3917E094DA003116F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB92D3817E094DA003116F4 /* CoreGraphics.framework */; };
 		CEB92D3B17E094DA003116F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB92D3A17E094DA003116F4 /* UIKit.framework */; };
@@ -51,6 +52,8 @@
 		CE2AB26C17E0BA780079A5DB /* item4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item4.png; sourceTree = "<group>"; };
 		CE2AB26D17E0BA780079A5DB /* item5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item5.png; sourceTree = "<group>"; };
 		CE2AB26E17E0BA780079A5DB /* item6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = item6.png; sourceTree = "<group>"; };
+		CEB76F0017E1E93A00FF1934 /* DataStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStorage.h; sourceTree = "<group>"; };
+		CEB76F0117E1E93A00FF1934 /* DataStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStorage.m; sourceTree = "<group>"; };
 		CEB92D3317E094DA003116F4 /* Task3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB92D3617E094DA003116F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CEB92D3817E094DA003116F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -150,6 +153,8 @@
 				CEB92D6C17E09AA5003116F4 /* CellController.m */,
 				CE2AB25617E0ADF50079A5DB /* DataViewCont.h */,
 				CE2AB25717E0ADF50079A5DB /* DataViewCont.m */,
+				CEB76F0017E1E93A00FF1934 /* DataStorage.h */,
+				CEB76F0117E1E93A00FF1934 /* DataStorage.m */,
 			);
 			path = Task3;
 			sourceTree = "<group>";
@@ -292,6 +297,7 @@
 				CE2AB25817E0ADF50079A5DB /* DataViewCont.m in Sources */,
 				CEB92D4317E094DA003116F4 /* main.m in Sources */,
 				CEB92D6D17E09AA5003116F4 /* CellController.m in Sources */,
+				CEB76F0217E1E93A00FF1934 /* DataStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
